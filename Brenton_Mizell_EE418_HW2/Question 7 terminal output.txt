@@ -1,0 +1,395 @@
+ents\EE 418> & C:/Users/mizeb/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/mizeb/OneDrive/Documents/EE 418/.vscode/decode_substitution_cipher.py"
+Enter the ciphertext: BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+Enter ciphertext character (or 'done' to finish): a
+Enter plaintext for A: b
+Enter ciphertext character (or 'done' to finish): f
+Enter plaintext for F: a
+Enter ciphertext character (or 'done' to finish): l
+done' to finish): o
+Enter plaintext for O: f
+Enter ciphertext character (or 'done' to finish): q
+Enter plaintext for Q: i
+Enter ciphertext character (or 'done' to finish): u
+Enter plaintext for U: d
+Enter ciphertext character (or 'done' to finish): j
+Enter plaintext for J: o
+Enter ciphertext character (or 'done' to finish): done
+
+Option 1 (Using 'e' for most frequent unmapped character):
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+C -> e
+
+Decrypted text:
+ BeDeEaG BeHaIoEB KEeBBed yeGGeH oH MNeINeE INe fedB eaBy PoHey KoGiRieB MeEe fueGiHV aBBeI bubbGeB INaI RouGd INEeaIeH INe ByBIeP
+
+Option 2 (Using 't' for most frequent unmapped character):
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+C -> t
+
+Decrypted text:
+ BtDtEaG BtHaIoEB KEtBBtd ytGGtH oH MNtINtE INt ftdB taBy PoHty KoGiRitB MtEt futGiHV aBBtI bubbGtB INaI RouGd INEtaItH INt ByBItP
+
+Option 3 (Using 'a' for most frequent unmapped character):
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+C -> a
+
+Decrypted text:
+ BaDaEaG BaHaIoEB KEaBBad yaGGaH oH MNaINaE INa fadB aaBy PoHay KoGiRiaB MaEa fuaGiHV aBBaI bubbGaB INaI RouGd INEaaIaH INa ByBIaP
+
+Choose the best option (1/2/3): 1
+
+Is the message good? (yes/no): no
+Enter incorrect ciphertext character: b
+Enter correct plaintext for B: s
+
+Original Ciphertext:
+ BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+B -> s
+C -> e
+
+Decrypted text:
+ seDeEaG seHaIoEs KEessed yeGGeH oH MNeINeE INe feds easy PoHey KoGiRies MeEe fueGiHV asseI bubbGes INaI RouGd INEeaIeH INe sysIeP
+
+Is the message good? (yes/no): no
+Enter incorrect ciphertext character: d
+Enter correct plaintext for D: v
+
+Original Ciphertext:
+ BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+B -> s
+D -> v
+C -> e
+
+Decrypted text:
+ seveEaG seHaIoEs KEessed yeGGeH oH MNeINeE INe feds easy PoHey KoGiRies MeEe fueGiHV asseI bubbGes INaI RouGd INEeaIeH INe sysIeP
+
+Is the message good? (yes/no): no
+Enter incorrect ciphertext character: g
+Enter correct plaintext for G: l
+
+Original Ciphertext:
+ BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+B -> s
+D -> v
+G -> l
+C -> e
+
+Decrypted text:
+ seveEal seHaIoEs KEessed yelleH oH MNeINeE INe feds easy PoHey KoliRies MeEe fueliHV asseI bubbles INaI Rould INEeaIeH INe sysIeP
+
+Is the message good? (yes/no): no
+Enter incorrect ciphertext character: h
+Enter correct plaintext for H: n
+
+Original Ciphertext:
+ BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+B -> s
+D -> v
+G -> l
+H -> n
+C -> e
+
+Decrypted text:
+ seveEal senaIoEs KEessed yellen on MNeINeE INe feds easy Poney KoliRies MeEe fuelinV asseI bubbles INaI Rould INEeaIen INe sysIeP
+
+Is the message good? (yes/no): no
+Enter incorrect ciphertext character: i
+Enter correct plaintext for I: t
+
+Original Ciphertext:
+ BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+B -> s
+D -> v
+G -> l
+H -> n
+I -> t
+C -> e
+
+Decrypted text:
+ seveEal senatoEs KEessed yellen on MNetNeE tNe feds easy Poney KoliRies MeEe fuelinV asset bubbles tNat Rould tNEeaten tNe systeP
+
+Is the message good? (yes/no): no
+Enter incorrect ciphertext character: e
+Enter correct plaintext for E: r
+
+Original Ciphertext:
+ BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+B -> s
+D -> v
+G -> l
+H -> n
+I -> t
+E -> r
+C -> e
+
+Decrypted text:
+ several senators Kressed yellen on MNetNer tNe feds easy Poney KoliRies Mere fuelinV asset bubbles tNat Rould tNreaten tNe systeP
+
+Is the message good? (yes/no): no
+Enter incorrect ciphertext character: n
+Enter correct plaintext for N: h
+
+Original Ciphertext:
+ BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+B -> s
+D -> v
+G -> l
+H -> n
+I -> t
+E -> r
+N -> h
+C -> e
+
+Decrypted text:
+ several senators Kressed yellen on Mhether the feds easy Poney KoliRies Mere fuelinV asset bubbles that Rould threaten the systeP
+
+Is the message good? (yes/no): no
+Enter incorrect ciphertext character: p
+Enter correct plaintext for P: m
+
+Original Ciphertext:
+ BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+B -> s
+D -> v
+G -> l
+H -> n
+I -> t
+E -> r
+N -> h
+P -> m
+C -> e
+
+Decrypted text:
+ several senators Kressed yellen on Mhether the feds easy money KoliRies Mere fuelinV asset bubbles that Rould threaten the system
+
+Is the message good? (yes/no): no
+Enter incorrect ciphertext character: v
+Enter correct plaintext for V: g
+
+Original Ciphertext:
+ BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+B -> s
+D -> v
+G -> l
+H -> n
+I -> t
+E -> r
+N -> h
+P -> m
+V -> g
+C -> e
+
+Decrypted text:
+ several senators Kressed yellen on Mhether the feds easy money KoliRies Mere fueling asset bubbles that Rould threaten the system
+
+Is the message good? (yes/no): no
+Enter incorrect ciphertext character: r
+Enter correct plaintext for R: c
+
+Original Ciphertext:
+ BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+B -> s
+D -> v
+G -> l
+H -> n
+I -> t
+E -> r
+N -> h
+P -> m
+V -> g
+R -> c
+C -> e
+
+Decrypted text:
+ several senators Kressed yellen on Mhether the feds easy money Kolicies Mere fueling asset bubbles that could threaten the system
+
+Is the message good? (yes/no): no
+Enter incorrect ciphertext character: m
+Enter correct plaintext for M: w
+
+Original Ciphertext:
+ BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+B -> s
+D -> v
+G -> l
+H -> n
+I -> t
+E -> r
+N -> h
+P -> m
+V -> g
+R -> c
+M -> w
+C -> e
+
+Decrypted text:
+ several senators Kressed yellen on whether the feds easy money Kolicies were fueling asset bubbles that could threaten the system
+
+Is the message good? (yes/no): no
+Enter incorrect ciphertext character: k
+Enter correct plaintext for K: p
+
+Original Ciphertext:
+ BCDCEFG BCHFIJEB KECBBCU LCGGCH JH MNCINCE INC OCUB CFBL PJHCL KJGQRQCB MCEC OTCGQHV FBBCI ATAAGCB INFI RJTGU INECFICH INC BLBICP
+
+Current Mappings:
+A -> b
+F -> a
+L -> y
+T -> u
+O -> f
+Q -> i
+U -> d
+J -> o
+B -> s
+D -> v
+G -> l
+H -> n
+I -> t
+E -> r
+N -> h
+P -> m
+V -> g
+R -> c
+M -> w
+K -> p
+C -> e
+
+Decrypted text:
+ several senators pressed yellen on whether the feds easy money policies were fueling asset bubbles that could threaten the system
+
+Is the message good? (yes/no): yes
